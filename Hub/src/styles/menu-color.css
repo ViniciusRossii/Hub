@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#menu-color {
+    position: fixed;
+    top: 0;
+    left: 2px;
+}
+
+#menu-list {
+    margin-top: 15px;
+}
+
+#menu-list ul {
+    transform: translateX(-105px);
+    transition: 1s;
+}
+
+.color-options {
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    border-right: 1px solid white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.color-options:nth-child(1) {
+    border-top: 1px solid white;
+}
+
+.color-options:nth-child(5) {
+    border-bottom: 1px solid white;
+}
+
+.color-options:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#menu-list ul.on {
+    transform: translateX(0px);
+}

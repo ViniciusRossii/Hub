@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Roboto;
+    src: url("../Roboto-Thin.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+    user-select: none;
+    font-family: Roboto;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}

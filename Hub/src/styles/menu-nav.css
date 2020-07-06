@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+#menu-nav {
+    text-align: center;
+}
+
+.nav-options {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border: 1px solid white;
+    transition: 1s;
+    margin: 0 3px 0 3px;
+    border-radius: 50%;
+}
+
+#url1 {
+    background: url("../../icons/youtube.png") no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+
+#url2 {
+    background: url("../../icons/music.png") no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+
+#url3 {
+    background: url("../../icons/instagram.png") no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+
+#url4 {
+    background: url("../../icons/twitter.png") no-repeat;
+    background-size: 40px;
+    background-position: center;
+}
+
+#url5 {
+    background: url("../../icons/github.png") no-repeat;
+    background-size: 60px;
+    background-position: center;
+}
+
+.nav-options:hover {
+    border-color: black;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#url1:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#url2:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#url3:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#url4:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#url5:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
