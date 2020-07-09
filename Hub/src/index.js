@@ -20,9 +20,8 @@ function setBg() {
 
 // Configuração do Hamburger Menu
 
-document.getElementById("menu-toggle").addEventListener("click", () => {
-    document.getElementById("hamburger-menu").classList.toggle("on")
-    document.getElementsByTagName("ul")[0].classList.toggle("on")
+document.getElementById("menu-color").addEventListener("click", () => {
+    document.getElementById("menu-color").classList.toggle("on")
 })
 
 // Configuração do Menu Color

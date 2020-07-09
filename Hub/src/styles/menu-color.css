@@ -11,6 +11,7 @@
 }
 
 #menu-list ul {
+    margin-top: 60px;
     transform: translateX(-105px);
     transition: 1s;
 }
@@ -38,6 +39,6 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-#menu-list ul.on {
+#menu-color.on #menu-list ul {
     transform: translateX(0px);
 }
