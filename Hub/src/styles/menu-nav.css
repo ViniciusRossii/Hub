@@ -12,36 +12,13 @@
     transition: 1s;
     margin: 0 3px 0 3px;
     border-radius: 50%;
-}
-
-#url1 {
-    background: url("../../icons/youtube.png") no-repeat;
     background-size: 40px;
     background-position: center;
-}
-
-#url2 {
-    background: url("../../icons/music.png") no-repeat;
-    background-size: 40px;
-    background-position: center;
-}
-
-#url3 {
-    background: url("../../icons/instagram.png") no-repeat;
-    background-size: 40px;
-    background-position: center;
-}
-
-#url4 {
-    background: url("../../icons/twitter.png") no-repeat;
-    background-size: 40px;
-    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #url5 {
-    background: url("../../icons/github.png") no-repeat;
     background-size: 60px;
-    background-position: center;
 }
 
 .nav-options:hover {
