@@ -18,7 +18,7 @@ function setBg() {
             document.body.style.background = backgrounds.bg0
             break
         }
-        if (localStorage.getItem("hub-background") == i) {
+        else if (localStorage.getItem("hub-background") == i) {
             document.body.style.background = backgrounds[`bg${i}`]
         }
     }
