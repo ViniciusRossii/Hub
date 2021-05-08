@@ -83,7 +83,7 @@ function setWelcome() {
 function setTitleHora() {
     const horas = new Date().getHours()
     const minutos = new Date().getMinutes()
-    document.getElementById("title-hora").innerHTML = `Agora são ${horas} hora(s) e ${minutos} minuto(s).`
+    document.getElementById("title-hora").innerHTML = `Agora são ${horas} ${horas == 1 ? "hora" : "horas"} e ${minutos} ${minutos == 1 ? "minuto" : "minutos"}`
 }
 
 // Chamada de Função
