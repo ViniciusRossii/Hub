@@ -10,11 +10,12 @@
     width: 70px;
     border: 1px solid white;
     transition: 1s;
-    margin: 0 3px 0 3px;
+    margin: 0 3px;
     border-radius: 50%;
     background-size: 40px;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 #url5 {
@@ -25,25 +26,5 @@
     border-color: black;
     height: 80px;
     width: 80px;
-    cursor: pointer;
-}
-
-#url1:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-#url2:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-#url3:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-#url4:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-#url5:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }

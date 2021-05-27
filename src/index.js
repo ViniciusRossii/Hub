@@ -39,7 +39,7 @@ for (i = 0; i < document.getElementsByClassName("color-options").length; i++) {
     })
 }
 
-// Configuração dos Menu de Navegação
+// Configuração do Menu de Navegação
 
 for (i = 0; i < document.getElementsByClassName("nav-options").length; i++) {
     menuNavItem = document.getElementsByClassName("nav-options")[i].dataset.menuNavItem
@@ -58,11 +58,9 @@ for (i = 0; i < document.getElementsByClassName("nav-options").length; i++) {
 
 // Display de Images do Menu de Navegação
 
-// Tamanho do ícone da URL5 editado no menu-nav.css
-
 for (i = 0; i < document.getElementsByClassName("nav-options").length; i++) {
     menuNavItem = document.getElementsByClassName("nav-options")[i].dataset.menuNavItem
-    document.getElementsByClassName("nav-options")[i].style.backgroundImage = `url('icons/${menuNavItem}.png')`
+    document.getElementsByClassName("nav-options")[i].style.backgroundImage = `url('src/icons/${menuNavItem}.png')`
 }
 
 // Configuração dos Títulos
