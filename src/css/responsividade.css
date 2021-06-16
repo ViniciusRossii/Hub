@@ -48,3 +48,28 @@
         margin-top: 70px;
     }
 }
+
+@media (max-width: 320px) {
+    .nav-options {
+        height: 50px;
+        width: 50px;
+        background-size: 30px;
+    }
+    #url5 {
+      background-size: 40px;
+    }
+    footer {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 280px) {
+    .nav-options {
+        height: 40px;
+        width: 40px;
+        background-size: 20px;
+    }
+    #url5 {
+      background-size: 30px;
+    }
+}
